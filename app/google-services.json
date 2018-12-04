@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "53380490309",
+    "firebase_url": "https://fir-c2eed.firebaseio.com",
+    "project_id": "fir-c2eed",
+    "storage_bucket": "fir-c2eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53380490309:android:98099b31693be20e",
+        "android_client_info": {
+          "package_name": "com.lucero.jeninemay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53380490309-8oduvp8q3gibe69cj2vvkctcr2p3l6j1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJQnjamB-Vl1j6_GQ9Ttb1t_9h_cqYi8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

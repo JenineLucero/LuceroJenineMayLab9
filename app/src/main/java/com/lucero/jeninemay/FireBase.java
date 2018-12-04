@@ -1,44 +1,39 @@
 package com.lucero.jeninemay;
 
 public class FireBase {
-    private String Firstname;
-    private String Lastname;
-    private Integer ave;
+    private String fullname, age, gender;
 
-    public FireBase(){
 
+    public String getFullname() {
+        return fullname;
     }
 
-    public FireBase(String lastname, String firstname, Integer ave){
-        this.Firstname = firstname;
-        this.Lastname = lastname;
-        this.ave = ave;
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
     }
 
-    public Integer getAve() {
-        return ave;
+    public String getAge() {
+        return age;
     }
 
-    public void setAve(Integer ave) {
-        this.ave = ave;
+    public void setAge(String age) {
+        this.age = age;
     }
 
-    public String getLastname() {
-        return Lastname;
+    public String getGender() {
+        return gender;
     }
 
-    public void setLastname(String Lastname) {
-        this.Lastname = Lastname;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
-    public String getFirstname() {
-
-        return Firstname;
+    public FireBase(String fullname, String age, String gender) {
+        this.fullname = fullname;
+        this.age = age;
+        this.gender = gender;
     }
+    public FireBase() {
 
-    public void setFirstname(String Firstname) {
-
-        this.Firstname = Firstname;
     }
-
 }
