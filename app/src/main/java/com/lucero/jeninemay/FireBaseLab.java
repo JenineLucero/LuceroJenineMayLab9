@@ -75,7 +75,7 @@ public class FireBaseLab extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()) {
-                    Toast.makeText(FireBaseLab.this, "saving is Successful!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(FireBaseLab.this, "Saved succesfully", Toast.LENGTH_LONG).show();
                 } else {
                     Toast.makeText(FireBaseLab.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
 
